@@ -3,10 +3,10 @@
 Author: Kaoru Nagato  
 Year: 2026  
 
-DOI  
+DOI:  
 https://doi.org/10.5281/zenodo.18945351
 
-Zenodo record  
+Zenodo record:  
 https://zenodo.org/records/18945351
 
 ---
