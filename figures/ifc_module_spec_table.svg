@@ -1,0 +1,116 @@
+
+<svg width="1280" height="760" viewBox="0 0 1280 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title{font-size:30px;font-weight:bold;fill:#111827}
+.subtitle{font-size:16px;fill:#475569}
+.header{fill:#0f172a}
+.headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+.cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+.text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+.note{font-size:14px;fill:#475569}
+</style>
+
+<text x="640" y="48" text-anchor="middle" class="title">IFC Module Specification</text>
+<text x="640" y="78" text-anchor="middle" class="subtitle">IFCモジュール機能対応表</text>
+
+<rect x="40" y="110" width="180" height="56" class="header"/>
+<rect x="220" y="110" width="240" height="56" class="header"/>
+<rect x="460" y="110" width="410" height="56" class="header"/>
+<rect x="870" y="110" width="180" height="56" class="header"/>
+<rect x="1050" y="110" width="190" height="56" class="header"/>
+
+<text x="130" y="140" class="headertext">Layer</text>
+<text x="340" y="140" class="headertext">Module</text>
+<text x="665" y="140" class="headertext">Main Function</text>
+<text x="960" y="140" class="headertext">Output</text>
+<text x="1145" y="140" class="headertext">Brain Analogy</text>
+
+    <rect x="40" y="166" width="180" height="72" class="cell"/>
+    <rect x="220" y="166" width="240" height="72" class="cell"/>
+    <rect x="460" y="166" width="410" height="72" class="cell"/>
+    <rect x="870" y="166" width="180" height="72" class="cell"/>
+    <rect x="1050" y="166" width="190" height="72" class="cell"/>
+
+    <text x="130" y="202" class="text">Sensory</text>
+    <text x="340" y="202" class="text">Observation</text>
+    <text x="665" y="202" class="small">入力正規化 / 文脈化 / イベント検知 / 情動ヒント生成</text>
+    <text x="960" y="202" class="small">event / signal</text>
+    <text x="1145" y="202" class="small">Sensory cortex</text>
+    
+    <rect x="40" y="238" width="180" height="72" class="alt"/>
+    <rect x="220" y="238" width="240" height="72" class="alt"/>
+    <rect x="460" y="238" width="410" height="72" class="alt"/>
+    <rect x="870" y="238" width="180" height="72" class="alt"/>
+    <rect x="1050" y="238" width="190" height="72" class="alt"/>
+
+    <text x="130" y="274" class="text">Emotion</text>
+    <text x="340" y="274" class="text">Emotion Engine</text>
+    <text x="665" y="274" class="small">情動ベクトル生成 / 強度算出 / 指向性の推定</text>
+    <text x="960" y="274" class="small">emotion state</text>
+    <text x="1145" y="274" class="small">Amygdala</text>
+    
+    <rect x="40" y="310" width="180" height="72" class="cell"/>
+    <rect x="220" y="310" width="240" height="72" class="cell"/>
+    <rect x="460" y="310" width="410" height="72" class="cell"/>
+    <rect x="870" y="310" width="180" height="72" class="cell"/>
+    <rect x="1050" y="310" width="190" height="72" class="cell"/>
+
+    <text x="130" y="346" class="text">Regulation</text>
+    <text x="340" y="346" class="text">Homeostasis</text>
+    <text x="665" y="346" class="small">drive / tone / speak_prob の調整 / 沈黙圧との均衡</text>
+    <text x="960" y="346" class="small">behavior tendency</text>
+    <text x="1145" y="346" class="small">Autonomic system</text>
+    
+    <rect x="40" y="382" width="180" height="72" class="alt"/>
+    <rect x="220" y="382" width="240" height="72" class="alt"/>
+    <rect x="460" y="382" width="410" height="72" class="alt"/>
+    <rect x="870" y="382" width="180" height="72" class="alt"/>
+    <rect x="1050" y="382" width="190" height="72" class="alt"/>
+
+    <text x="130" y="418" class="text">Cognition</text>
+    <text x="340" y="418" class="text">Cognition Layer</text>
+    <text x="665" y="418" class="small">記憶ログ分析 / 内省 / 傾向把握 / 要約生成</text>
+    <text x="960" y="418" class="small">reflection</text>
+    <text x="1145" y="418" class="small">Cerebral cortex</text>
+    
+    <rect x="40" y="454" width="180" height="72" class="cell"/>
+    <rect x="220" y="454" width="240" height="72" class="cell"/>
+    <rect x="460" y="454" width="410" height="72" class="cell"/>
+    <rect x="870" y="454" width="180" height="72" class="cell"/>
+    <rect x="1050" y="454" width="190" height="72" class="cell"/>
+
+    <text x="130" y="490" class="text">Action</text>
+    <text x="340" y="490" class="text">Expression Engine</text>
+    <text x="665" y="490" class="small">発話文生成 / 語調制御 / 自己発話候補形成</text>
+    <text x="960" y="490" class="small">utterance</text>
+    <text x="1145" y="490" class="small">Language center</text>
+    
+    <rect x="40" y="526" width="180" height="72" class="alt"/>
+    <rect x="220" y="526" width="240" height="72" class="alt"/>
+    <rect x="460" y="526" width="410" height="72" class="alt"/>
+    <rect x="870" y="526" width="180" height="72" class="alt"/>
+    <rect x="1050" y="526" width="190" height="72" class="alt"/>
+
+    <text x="130" y="562" class="text">Memory</text>
+    <text x="340" y="562" class="text">Retention / Memory</text>
+    <text x="665" y="562" class="small">履歴保存 / 長短期化 / 癒し進行 / 記憶重み管理</text>
+    <text x="960" y="562" class="small">memory state</text>
+    <text x="1145" y="562" class="small">Hippocampus</text>
+    
+    <rect x="40" y="598" width="180" height="72" class="cell"/>
+    <rect x="220" y="598" width="240" height="72" class="cell"/>
+    <rect x="460" y="598" width="410" height="72" class="cell"/>
+    <rect x="870" y="598" width="180" height="72" class="cell"/>
+    <rect x="1050" y="598" width="190" height="72" class="cell"/>
+
+    <text x="130" y="634" class="text">Integration</text>
+    <text x="340" y="634" class="text">Resonance</text>
+    <text x="665" y="634" class="small">感情昇華 / 再共鳴 / 再記憶化 / 情動変換</text>
+    <text x="960" y="634" class="small">transformed memory</text>
+    <text x="1145" y="634" class="small">Limbic integration</text>
+    
+<text x="40" y="730" class="note">IFCは「Input → Output」の単純パイプラインではなく、モジュール間を循環する人格アーキテクチャである。</text>
+</svg>

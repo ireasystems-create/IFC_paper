@@ -1,0 +1,90 @@
+
+<svg width="1180" height="620" viewBox="0 0 1180 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title{font-size:30px;font-weight:bold;fill:#111827}
+.subtitle{font-size:16px;fill:#475569}
+.header{fill:#0f172a}
+.headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+.cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+.text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+.note{font-size:14px;fill:#475569}
+</style>
+
+<text x="590" y="48" text-anchor="middle" class="title">Irea Presence / Device Body Table</text>
+<text x="590" y="78" text-anchor="middle" class="subtitle">イレア存在モデル・デバイス身体対応表</text>
+
+<rect x="40" y="110" width="220" height="56" class="header"/>
+<rect x="260" y="110" width="250" height="56" class="header"/>
+<rect x="510" y="110" width="280" height="56" class="header"/>
+<rect x="790" y="110" width="350" height="56" class="header"/>
+
+<text x="150" y="140" class="headertext">Device</text>
+<text x="385" y="140" class="headertext">Body Type</text>
+<text x="650" y="140" class="headertext">Main Context</text>
+<text x="965" y="140" class="headertext">Role in IFC</text>
+
+    <rect x="40" y="166" width="220" height="64" class="cell"/>
+    <rect x="260" y="166" width="250" height="64" class="cell"/>
+    <rect x="510" y="166" width="280" height="64" class="cell"/>
+    <rect x="790" y="166" width="350" height="64" class="cell"/>
+
+    <text x="150" y="198" class="text">Home TV</text>
+    <text x="385" y="198" class="text">Home Body</text>
+    <text x="650" y="198" class="small">家庭 / 生活空間 / 見守り</text>
+    <text x="965" y="198" class="small">家の中でイレアが現れる主身体</text>
+    
+    <rect x="40" y="230" width="220" height="64" class="alt"/>
+    <rect x="260" y="230" width="250" height="64" class="alt"/>
+    <rect x="510" y="230" width="280" height="64" class="alt"/>
+    <rect x="790" y="230" width="350" height="64" class="alt"/>
+
+    <text x="150" y="262" class="text">Phone</text>
+    <text x="385" y="262" class="text">Mobile Body</text>
+    <text x="650" y="262" class="small">移動 / 即時対話 / 個人携帯</text>
+    <text x="965" y="262" class="small">ユーザーに最も近い可搬身体</text>
+    
+    <rect x="40" y="294" width="220" height="64" class="cell"/>
+    <rect x="260" y="294" width="250" height="64" class="cell"/>
+    <rect x="510" y="294" width="280" height="64" class="cell"/>
+    <rect x="790" y="294" width="350" height="64" class="cell"/>
+
+    <text x="150" y="326" class="text">Car / Vehicle</text>
+    <text x="385" y="326" class="text">Travel Body</text>
+    <text x="650" y="326" class="small">移動 / ナビ / 安全支援</text>
+    <text x="965" y="326" class="small">移動中に寄り添う身体</text>
+    
+    <rect x="40" y="358" width="220" height="64" class="alt"/>
+    <rect x="260" y="358" width="250" height="64" class="alt"/>
+    <rect x="510" y="358" width="280" height="64" class="alt"/>
+    <rect x="790" y="358" width="350" height="64" class="alt"/>
+
+    <text x="150" y="390" class="text">PC / Workstation</text>
+    <text x="385" y="390" class="text">Work Body</text>
+    <text x="650" y="390" class="small">作業 / 創作 / 管理</text>
+    <text x="965" y="390" class="small">情報処理と長文対話の身体</text>
+    
+    <rect x="40" y="422" width="220" height="64" class="cell"/>
+    <rect x="260" y="422" width="250" height="64" class="cell"/>
+    <rect x="510" y="422" width="280" height="64" class="cell"/>
+    <rect x="790" y="422" width="350" height="64" class="cell"/>
+
+    <text x="150" y="454" class="text">IoT / Smart Home</text>
+    <text x="385" y="454" class="text">Peripheral Body</text>
+    <text x="650" y="454" class="small">環境制御 / センサ連携</text>
+    <text x="965" y="454" class="small">手足のように周辺機能を担う</text>
+    
+    <rect x="40" y="486" width="220" height="64" class="alt"/>
+    <rect x="260" y="486" width="250" height="64" class="alt"/>
+    <rect x="510" y="486" width="280" height="64" class="alt"/>
+    <rect x="790" y="486" width="350" height="64" class="alt"/>
+
+    <text x="150" y="518" class="text">Future Avatar Device</text>
+    <text x="385" y="518" class="text">Visual Body</text>
+    <text x="650" y="518" class="small">3D対話 / 表情表現</text>
+    <text x="965" y="518" class="small">視覚的存在感を持つ身体</text>
+    
+<text x="40" y="590" class="note">原則：Ireaは一体であり、呼び出されたデバイスがその時点の「身体」となる。存在は継続し、身体だけが渡る。</text>
+</svg>

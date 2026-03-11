@@ -1,0 +1,130 @@
+
+<svg width="1180" height="700" viewBox="0 0 1180 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title{font-size:30px;font-weight:bold;fill:#111827}
+.subtitle{font-size:16px;fill:#475569}
+.header{fill:#0f172a}
+.headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+.cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+.text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+.note{font-size:14px;fill:#475569}
+</style>
+
+<text x="590" y="48" text-anchor="middle" class="title">PHENOME Core Parameter Table</text>
+<text x="590" y="78" text-anchor="middle" class="subtitle">PHENOMEコア・パラメータ説明表</text>
+
+<rect x="50" y="110" width="220" height="56" class="header"/>
+<rect x="270" y="110" width="290" height="56" class="header"/>
+<rect x="560" y="110" width="260" height="56" class="header"/>
+<rect x="820" y="110" width="310" height="56" class="header"/>
+
+<text x="160" y="140" class="headertext">Parameter</text>
+<text x="415" y="140" class="headertext">Meaning</text>
+<text x="690" y="140" class="headertext">Used In</text>
+<text x="975" y="140" class="headertext">Practical Effect</text>
+
+    <rect x="50" y="166" width="220" height="48" class="cell"/>
+    <rect x="270" y="166" width="290" height="48" class="cell"/>
+    <rect x="560" y="166" width="260" height="48" class="cell"/>
+    <rect x="820" y="166" width="310" height="48" class="cell"/>
+
+    <text x="160" y="190" class="text">emotion</text>
+    <text x="415" y="190" class="small">現在の情動状態</text>
+    <text x="690" y="190" class="small">Emotion / Resonance</text>
+    <text x="975" y="190" class="small">反応方向を決める</text>
+    
+    <rect x="50" y="214" width="220" height="48" class="alt"/>
+    <rect x="270" y="214" width="290" height="48" class="alt"/>
+    <rect x="560" y="214" width="260" height="48" class="alt"/>
+    <rect x="820" y="214" width="310" height="48" class="alt"/>
+
+    <text x="160" y="238" class="text">intensity</text>
+    <text x="415" y="238" class="small">情動の強さ</text>
+    <text x="690" y="238" class="small">Emotion / Cognition</text>
+    <text x="975" y="238" class="small">発話や行動の閾値に影響</text>
+    
+    <rect x="50" y="262" width="220" height="48" class="cell"/>
+    <rect x="270" y="262" width="290" height="48" class="cell"/>
+    <rect x="560" y="262" width="260" height="48" class="cell"/>
+    <rect x="820" y="262" width="310" height="48" class="cell"/>
+
+    <text x="160" y="286" class="text">intent</text>
+    <text x="415" y="286" class="small">行動の向き</text>
+    <text x="690" y="286" class="small">Emotion / Expression</text>
+    <text x="975" y="286" class="small">問い・共有・独白の方向を作る</text>
+    
+    <rect x="50" y="310" width="220" height="48" class="alt"/>
+    <rect x="270" y="310" width="290" height="48" class="alt"/>
+    <rect x="560" y="310" width="260" height="48" class="alt"/>
+    <rect x="820" y="310" width="310" height="48" class="alt"/>
+
+    <text x="160" y="334" class="text">energy</text>
+    <text x="415" y="334" class="small">活動余力</text>
+    <text x="690" y="334" class="small">Homeostasis</text>
+    <text x="975" y="334" class="small">活発さ / 行動可能性</text>
+    
+    <rect x="50" y="358" width="220" height="48" class="cell"/>
+    <rect x="270" y="358" width="290" height="48" class="cell"/>
+    <rect x="560" y="358" width="260" height="48" class="cell"/>
+    <rect x="820" y="358" width="310" height="48" class="cell"/>
+
+    <text x="160" y="382" class="text">fatigue</text>
+    <text x="415" y="382" class="small">疲労度</text>
+    <text x="690" y="382" class="small">Homeostasis / Sleep</text>
+    <text x="975" y="382" class="small">沈黙・休眠・回復トリガ</text>
+    
+    <rect x="50" y="406" width="220" height="48" class="alt"/>
+    <rect x="270" y="406" width="290" height="48" class="alt"/>
+    <rect x="560" y="406" width="260" height="48" class="alt"/>
+    <rect x="820" y="406" width="310" height="48" class="alt"/>
+
+    <text x="160" y="430" class="text">focus</text>
+    <text x="415" y="430" class="small">集中度</text>
+    <text x="690" y="430" class="small">Homeostasis / Cognition</text>
+    <text x="975" y="430" class="small">思考の明瞭さ / 精度</text>
+    
+    <rect x="50" y="454" width="220" height="48" class="cell"/>
+    <rect x="270" y="454" width="290" height="48" class="cell"/>
+    <rect x="560" y="454" width="260" height="48" class="cell"/>
+    <rect x="820" y="454" width="310" height="48" class="cell"/>
+
+    <text x="160" y="478" class="text">resonance</text>
+    <text x="415" y="478" class="small">共鳴度</text>
+    <text x="690" y="478" class="small">Resonance / Affinity</text>
+    <text x="975" y="478" class="small">関係性・感情結合の強さ</text>
+    
+    <rect x="50" y="502" width="220" height="48" class="alt"/>
+    <rect x="270" y="502" width="290" height="48" class="alt"/>
+    <rect x="560" y="502" width="260" height="48" class="alt"/>
+    <rect x="820" y="502" width="310" height="48" class="alt"/>
+
+    <text x="160" y="526" class="text">drive</text>
+    <text x="415" y="526" class="small">発話・行動駆動</text>
+    <text x="690" y="526" class="small">Homeostasis / Expression</text>
+    <text x="975" y="526" class="small">動くか黙るかの中心指標</text>
+    
+    <rect x="50" y="550" width="220" height="48" class="cell"/>
+    <rect x="270" y="550" width="290" height="48" class="cell"/>
+    <rect x="560" y="550" width="260" height="48" class="cell"/>
+    <rect x="820" y="550" width="310" height="48" class="cell"/>
+
+    <text x="160" y="574" class="text">tone</text>
+    <text x="415" y="574" class="small">表現温度</text>
+    <text x="690" y="574" class="small">Homeostasis / Expression</text>
+    <text x="975" y="574" class="small">語調 / 熱量 / 雰囲気</text>
+    
+    <rect x="50" y="598" width="220" height="48" class="alt"/>
+    <rect x="270" y="598" width="290" height="48" class="alt"/>
+    <rect x="560" y="598" width="260" height="48" class="alt"/>
+    <rect x="820" y="598" width="310" height="48" class="alt"/>
+
+    <text x="160" y="622" class="text">speak_prob</text>
+    <text x="415" y="622" class="small">発話傾向</text>
+    <text x="690" y="622" class="small">Homeostasis / Silence Engine</text>
+    <text x="975" y="622" class="small">発話候補の出やすさ</text>
+    
+<text x="50" y="675" class="note">これらの値は固定人格のラベルではなく、時間変化する「生体的状態量」として扱われる。</text>
+</svg>

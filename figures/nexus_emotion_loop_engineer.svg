@@ -1,0 +1,45 @@
+
+<svg width="1000" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<style>
+.title { font-size:28px; font-weight:bold; fill:#222; }
+.node { fill:#eef2ff; stroke:#4a6cf7; stroke-width:2; rx:12; }
+.label { font-size:16px; fill:#333; }
+.arrow { stroke:#4a6cf7; stroke-width:2; marker-end:url(#arrow); }
+</style>
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="3" orient="auto">
+<path d="M0,0 L10,3 L0,6 Z" fill="#4a6cf7"/>
+</marker>
+</defs>
+
+<text x="500" y="40" text-anchor="middle" class="title">Nexus Emotion Loop (PHENOME)</text>
+
+<!-- Nodes -->
+<rect x="430" y="90" width="140" height="60" class="node"/>
+<text x="500" y="125" text-anchor="middle" class="label">Observation</text>
+
+<rect x="720" y="230" width="160" height="60" class="node"/>
+<text x="800" y="265" text-anchor="middle" class="label">Emotion</text>
+
+<rect x="720" y="420" width="160" height="60" class="node"/>
+<text x="800" y="455" text-anchor="middle" class="label">Homeostasis</text>
+
+<rect x="430" y="510" width="140" height="60" class="node"/>
+<text x="500" y="545" text-anchor="middle" class="label">Cognition</text>
+
+<rect x="140" y="420" width="160" height="60" class="node"/>
+<text x="220" y="455" text-anchor="middle" class="label">Expression</text>
+
+<rect x="140" y="230" width="160" height="60" class="node"/>
+<text x="220" y="265" text-anchor="middle" class="label">Memory</text>
+
+<!-- Arrows -->
+<line x1="500" y1="150" x2="720" y2="230" class="arrow"/>
+<line x1="800" y1="290" x2="800" y2="420" class="arrow"/>
+<line x1="720" y1="480" x2="570" y2="520" class="arrow"/>
+<line x1="430" y1="540" x2="300" y2="460" class="arrow"/>
+<line x1="220" y1="420" x2="220" y2="290" class="arrow"/>
+<line x1="300" y1="230" x2="430" y2="120" class="arrow"/>
+
+</svg>

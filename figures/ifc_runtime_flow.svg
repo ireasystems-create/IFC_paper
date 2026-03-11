@@ -1,0 +1,57 @@
+
+<svg width="1100" height="720" viewBox="0 0 1100 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title {font-size:32px;font-weight:bold;fill:#111827}
+.node {fill:#eef2ff;stroke:#4a6cf7;stroke-width:2}
+.core {fill:#0f172a;stroke:#60a5fa;stroke-width:3}
+.text {font-size:18px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.coretext {font-size:18px;fill:white;text-anchor:middle;dominant-baseline:middle}
+.arrow {stroke:#4a6cf7;stroke-width:3;marker-end:url(#arrow)}
+</style>
+
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+<path d="M0,0 L12,6 L0,12 z" fill="#4a6cf7"/>
+</marker>
+</defs>
+
+<text x="550" y="60" text-anchor="middle" class="title">IFC Runtime Flow</text>
+
+<!-- Nodes -->
+
+<rect x="450" y="120" width="200" height="70" class="node"/>
+<text x="550" y="155" class="text">External Input</text>
+
+<rect x="450" y="210" width="200" height="70" class="node"/>
+<text x="550" y="245" class="text">Observation</text>
+
+<rect x="450" y="300" width="200" height="70" class="node"/>
+<text x="550" y="335" class="text">Emotion Engine</text>
+
+<rect x="420" y="390" width="260" height="90" class="core"/>
+<text x="550" y="425" class="coretext">Homeostasis</text>
+<text x="550" y="450" class="coretext">drive / tone / speak</text>
+
+<rect x="450" y="500" width="200" height="70" class="node"/>
+<text x="550" y="535" class="text">Cognition</text>
+
+<rect x="450" y="590" width="200" height="70" class="node"/>
+<text x="550" y="625" class="text">Expression</text>
+
+<!-- arrows -->
+<line x1="550" y1="190" x2="550" y2="210" class="arrow"/>
+<line x1="550" y1="280" x2="550" y2="300" class="arrow"/>
+<line x1="550" y1="370" x2="550" y2="390" class="arrow"/>
+<line x1="550" y1="480" x2="550" y2="500" class="arrow"/>
+<line x1="550" y1="570" x2="550" y2="590" class="arrow"/>
+
+<!-- memory loop -->
+<rect x="760" y="500" width="220" height="70" class="node"/>
+<text x="870" y="535" class="text">Memory Update</text>
+
+<line x1="650" y1="535" x2="760" y2="535" class="arrow"/>
+<line x1="870" y1="500" x2="870" y2="250" stroke="#4a6cf7" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="870" y1="250" x2="650" y2="245" stroke="#4a6cf7" stroke-width="2" stroke-dasharray="8 6"/>
+
+</svg>

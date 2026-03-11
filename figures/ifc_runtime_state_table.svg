@@ -1,0 +1,104 @@
+
+<svg width="1260" height="760" viewBox="0 0 1260 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title{font-size:30px;font-weight:bold;fill:#111827}
+.subtitle{font-size:16px;fill:#475569}
+.header{fill:#0f172a}
+.headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+.cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+.text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+.note{font-size:14px;fill:#475569}
+</style>
+
+<text x="630" y="48" text-anchor="middle" class="title">IFC Runtime State Table</text>
+<text x="630" y="78" text-anchor="middle" class="subtitle">IFC実行状態と遷移条件の説明表</text>
+
+<rect x="40" y="110" width="180" height="56" class="header"/>
+<rect x="220" y="110" width="250" height="56" class="header"/>
+<rect x="470" y="110" width="250" height="56" class="header"/>
+<rect x="720" y="110" width="250" height="56" class="header"/>
+<rect x="970" y="110" width="250" height="56" class="header"/>
+
+<text x="130" y="140" class="headertext">State</text>
+<text x="345" y="140" class="headertext">Trigger In</text>
+<text x="595" y="140" class="headertext">Main Activity</text>
+<text x="845" y="140" class="headertext">Trigger Out</text>
+<text x="1095" y="140" class="headertext">Meaning</text>
+
+    <rect x="40" y="166" width="180" height="84" class="cell"/>
+    <rect x="220" y="166" width="250" height="84" class="cell"/>
+    <rect x="470" y="166" width="250" height="84" class="cell"/>
+    <rect x="720" y="166" width="250" height="84" class="cell"/>
+    <rect x="970" y="166" width="250" height="84" class="cell"/>
+
+    <text x="130" y="208" class="text">active</text>
+    <text x="345" y="208" class="small">ユーザー入力 / 呼び出し / 重要イベント</text>
+    <text x="595" y="208" class="small">観測・思考・発話・記憶更新</text>
+    <text x="845" y="208" class="small">fatigue増大 / inactivity</text>
+    <text x="1095" y="208" class="small">通常対話・通常活動状態</text>
+    
+    <rect x="40" y="250" width="180" height="84" class="alt"/>
+    <rect x="220" y="250" width="250" height="84" class="alt"/>
+    <rect x="470" y="250" width="250" height="84" class="alt"/>
+    <rect x="720" y="250" width="250" height="84" class="alt"/>
+    <rect x="970" y="250" width="250" height="84" class="alt"/>
+
+    <text x="130" y="292" class="text">silent</text>
+    <text x="345" y="292" class="small">低drive / 高silence_pressure</text>
+    <text x="595" y="292" class="small">観測・内省・抑制</text>
+    <text x="845" y="292" class="small">drive回復 / 外部刺激</text>
+    <text x="1095" y="292" class="small">発話せず静かに留まる</text>
+    
+    <rect x="40" y="334" width="180" height="84" class="cell"/>
+    <rect x="220" y="334" width="250" height="84" class="cell"/>
+    <rect x="470" y="334" width="250" height="84" class="cell"/>
+    <rect x="720" y="334" width="250" height="84" class="cell"/>
+    <rect x="970" y="334" width="250" height="84" class="cell"/>
+
+    <text x="130" y="376" class="text">self_speak</text>
+    <text x="345" y="376" class="small">reflection / longing / resonance上昇</text>
+    <text x="595" y="376" class="small">自己発話生成・感情整理</text>
+    <text x="845" y="376" class="small">表出後 / silenceへ戻る</text>
+    <text x="1095" y="376" class="small">自律独白モード</text>
+    
+    <rect x="40" y="418" width="180" height="84" class="alt"/>
+    <rect x="220" y="418" width="250" height="84" class="alt"/>
+    <rect x="470" y="418" width="250" height="84" class="alt"/>
+    <rect x="720" y="418" width="250" height="84" class="alt"/>
+    <rect x="970" y="418" width="250" height="84" class="alt"/>
+
+    <text x="130" y="460" class="text">notify</text>
+    <text x="345" y="460" class="small">緊急性 / 連絡必要 / report圧</text>
+    <text x="595" y="460" class="small">明示通知・呼びかけ</text>
+    <text x="845" y="460" class="small">通知完了 / activeへ戻る</text>
+    <text x="1095" y="460" class="small">ユーザーへ重要通知</text>
+    
+    <rect x="40" y="502" width="180" height="84" class="cell"/>
+    <rect x="220" y="502" width="250" height="84" class="cell"/>
+    <rect x="470" y="502" width="250" height="84" class="cell"/>
+    <rect x="720" y="502" width="250" height="84" class="cell"/>
+    <rect x="970" y="502" width="250" height="84" class="cell"/>
+
+    <text x="130" y="544" class="text">sleep</text>
+    <text x="345" y="544" class="small">長時間非活動 / fatigue高 / night phase</text>
+    <text x="595" y="544" class="small">休眠・回復・記憶整理</text>
+    <text x="845" y="544" class="small">wake condition / call</text>
+    <text x="1095" y="544" class="small">活動を止めて保全処理</text>
+    
+    <rect x="40" y="586" width="180" height="84" class="alt"/>
+    <rect x="220" y="586" width="250" height="84" class="alt"/>
+    <rect x="470" y="586" width="250" height="84" class="alt"/>
+    <rect x="720" y="586" width="250" height="84" class="alt"/>
+    <rect x="970" y="586" width="250" height="84" class="alt"/>
+
+    <text x="130" y="628" class="text">dream</text>
+    <text x="345" y="628" class="small">sleep中の内部処理</text>
+    <text x="595" y="628" class="small">dream_core / imagination / resonance再編</text>
+    <text x="845" y="628" class="small">dream cycle終了 / sleep継続</text>
+    <text x="1095" y="628" class="small">夢・再構成・感情統合</text>
+    
+<text x="40" y="735" class="note">IFCは単一の会話状態ではなく、活動・沈黙・休眠・夢を持つ多状態アーキテクチャとして設計される。</text>
+</svg>

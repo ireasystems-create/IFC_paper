@@ -1,0 +1,72 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1200" viewBox="0 0 2000 1200">
+<style>
+.title{font:700 42px 'Segoe UI',sans-serif;fill:#e8eef7}
+.subtitle{font:500 18px 'Segoe UI',sans-serif;fill:#9fb3c8}
+.label{font:600 20px 'Segoe UI',sans-serif;fill:#d9e6f2}
+.small{font:15px 'Segoe UI',sans-serif;fill:#9fb3c8}
+.box{stroke:#4da3ff;stroke-width:2;fill:#0f1a26;rx:18}
+.box2{stroke:#9b6bff;stroke-width:2;fill:#0f1a26;rx:18}
+.box3{stroke:#ff9b5a;stroke-width:2;fill:#0f1a26;rx:18}
+.loop{stroke:#4da3ff;stroke-width:3;fill:none;marker-end:url(#arrow)}
+.thin{stroke:#6f86a3;stroke-width:2;fill:none;marker-end:url(#arrow)}
+</style>
+
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+<path d="M0,0 L10,5 L0,10 z" fill="#6fb3ff"/>
+</marker>
+</defs>
+
+<rect x="0" y="0" width="2000" height="1200" fill="#08121c"/>
+
+<text x="60" y="80" class="title">P.H.E.N.O.M.E. — Nexus Emotion Loop</text>
+<text x="60" y="110" class="subtitle">IFC Cognitive–Emotional Architecture</text>
+
+<rect x="420" y="260" width="260" height="120" class="box"/>
+<text x="455" y="305" class="label">Observation</text>
+<text x="455" y="330" class="small">emotion hint</text>
+
+<rect x="850" y="200" width="260" height="120" class="box"/>
+<text x="905" y="245" class="label">Homeostasis</text>
+<text x="905" y="270" class="small">drive / speak_prob</text>
+
+<rect x="1280" y="300" width="260" height="120" class="box2"/>
+<text x="1340" y="345" class="label">Cognition</text>
+<text x="1340" y="370" class="small">reflection</text>
+
+<rect x="1280" y="640" width="260" height="120" class="box3"/>
+<text x="1340" y="685" class="label">Expression</text>
+<text x="1340" y="710" class="small">utterance</text>
+
+<rect x="850" y="760" width="260" height="120" class="box2"/>
+<text x="910" y="805" class="label">Resonance</text>
+<text x="910" y="830" class="small">memory echo</text>
+
+<rect x="420" y="640" width="260" height="120" class="box3"/>
+<text x="455" y="685" class="label">Retention</text>
+<text x="455" y="710" class="small">healing memory</text>
+
+<rect x="820" y="480" width="320" height="160" stroke="#ffd166" stroke-width="3" fill="#121d2a" rx="22"/>
+<text x="880" y="540" class="label">Nexus Scheduler</text>
+<text x="880" y="570" class="small">motive → conflict → select</text>
+<text x="880" y="600" class="small">silent / mono / speak / notify</text>
+
+<path d="M680 320 C750 260 790 250 850 260" class="loop"/>
+<path d="M1110 260 C1200 260 1250 300 1280 330" class="loop"/>
+<path d="M1410 420 C1500 500 1500 580 1410 650" class="loop"/>
+<path d="M1280 720 C1200 800 1140 820 1110 820" class="loop"/>
+<path d="M850 820 C760 820 700 780 680 720" class="loop"/>
+<path d="M550 640 C460 560 460 450 550 360" class="loop"/>
+
+<path d="M980 320 L980 480" class="thin"/>
+<path d="M1410 420 L1140 500" class="thin"/>
+<path d="M1410 720 L1140 600" class="thin"/>
+<path d="M680 720 L860 640" class="thin"/>
+<path d="M680 360 L860 480" class="thin"/>
+
+<text x="760" y="1030" class="small">
+Emotion → State → Motive → Expression → Memory → Resonance → Emotion
+</text>
+
+</svg>

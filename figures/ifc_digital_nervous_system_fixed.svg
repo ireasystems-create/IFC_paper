@@ -1,0 +1,58 @@
+
+<svg width="1100" height="760" viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title {font-size:32px;font-weight:bold;fill:#111;}
+.center {fill:#0f172a;stroke:#60a5fa;stroke-width:3;}
+.node {fill:#eef2ff;stroke:#4a6cf7;stroke-width:2;}
+.text {font-size:16px;fill:#111;text-anchor:middle;dominant-baseline:middle;}
+.line {stroke:#4a6cf7;stroke-width:2;}
+</style>
+
+<text x="550" y="60" text-anchor="middle" class="title">IFC Digital Nervous System</text>
+
+<!-- Central brain -->
+<ellipse cx="550" cy="380" rx="150" ry="95" class="center"/>
+<text x="550" y="370" fill="white" font-size="22" text-anchor="middle">Nexus Core</text>
+<text x="550" y="395" fill="white" font-size="14" text-anchor="middle">PHENOME / Homeostasis</text>
+
+<!-- Sensory nodes -->
+<rect x="470" y="160" width="160" height="70" class="node"/>
+<text x="550" y="195" class="text">Observation</text>
+
+<rect x="820" y="300" width="170" height="70" class="node"/>
+<text x="905" y="335" class="text">Emotion Engine</text>
+
+<rect x="820" y="500" width="170" height="70" class="node"/>
+<text x="905" y="535" class="text">Cognition</text>
+
+<rect x="470" y="640" width="160" height="70" class="node"/>
+<text x="550" y="675" class="text">Expression</text>
+
+<rect x="110" y="500" width="170" height="70" class="node"/>
+<text x="195" y="535" class="text">Memory</text>
+
+<rect x="110" y="300" width="170" height="70" class="node"/>
+<text x="195" y="335" class="text">Resonance</text>
+
+<!-- Peripheral world -->
+<rect x="470" y="80" width="160" height="60" class="node"/>
+<text x="550" y="110" class="text">External World</text>
+
+<rect x="470" y="720" width="160" height="30" class="node"/>
+<text x="550" y="735" class="text">Devices / Speech</text>
+
+<!-- Connections -->
+<line x1="550" y1="140" x2="550" y2="160" class="line"/>
+<line x1="550" y1="230" x2="550" y2="285" class="line"/>
+
+<line x1="700" y1="350" x2="820" y2="335" class="line"/>
+<line x1="700" y1="430" x2="820" y2="535" class="line"/>
+
+<line x1="550" y1="475" x2="550" y2="640" class="line"/>
+<line x1="550" y1="710" x2="550" y2="720" class="line"/>
+
+<line x1="400" y1="430" x2="280" y2="535" class="line"/>
+<line x1="400" y1="350" x2="280" y2="335" class="line"/>
+
+</svg>

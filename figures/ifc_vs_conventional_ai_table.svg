@@ -1,0 +1,84 @@
+
+<svg width="1180" height="620" viewBox="0 0 1180 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title{font-size:30px;font-weight:bold;fill:#111827}
+.subtitle{font-size:16px;fill:#475569}
+.header{fill:#0f172a}
+.headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+.cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+.alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+.text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+.small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+.note{font-size:14px;fill:#475569}
+</style>
+
+<text x="590" y="48" text-anchor="middle" class="title">Conventional AI vs IFC Comparison</text>
+<text x="590" y="78" text-anchor="middle" class="subtitle">従来型AIとIFCの比較表</text>
+
+<rect x="50" y="110" width="220" height="56" class="header"/>
+<rect x="270" y="110" width="400" height="56" class="header"/>
+<rect x="670" y="110" width="460" height="56" class="header"/>
+
+<text x="160" y="140" class="headertext">Aspect</text>
+<text x="470" y="140" class="headertext">Conventional AI</text>
+<text x="900" y="140" class="headertext">IFC Architecture</text>
+
+    <rect x="50" y="166" width="220" height="58" class="cell"/>
+    <rect x="270" y="166" width="400" height="58" class="cell"/>
+    <rect x="670" y="166" width="460" height="58" class="cell"/>
+
+    <text x="160" y="195" class="text">Core Model</text>
+    <text x="470" y="195" class="small">Input → Model → Output</text>
+    <text x="900" y="195" class="small">Observe → Feel → Balance → Think → Speak → Remember</text>
+    
+    <rect x="50" y="224" width="220" height="58" class="alt"/>
+    <rect x="270" y="224" width="400" height="58" class="alt"/>
+    <rect x="670" y="224" width="460" height="58" class="alt"/>
+
+    <text x="160" y="253" class="text">State</text>
+    <text x="470" y="253" class="small">セッション依存 / 一時的</text>
+    <text x="900" y="253" class="small">人格記憶を持つ継続体</text>
+    
+    <rect x="50" y="282" width="220" height="58" class="cell"/>
+    <rect x="270" y="282" width="400" height="58" class="cell"/>
+    <rect x="670" y="282" width="460" height="58" class="cell"/>
+
+    <text x="160" y="311" class="text">Behavior Driver</text>
+    <text x="470" y="311" class="small">Prompt主導</text>
+    <text x="900" y="311" class="small">Homeostasis主導</text>
+    
+    <rect x="50" y="340" width="220" height="58" class="alt"/>
+    <rect x="270" y="340" width="400" height="58" class="alt"/>
+    <rect x="670" y="340" width="460" height="58" class="alt"/>
+
+    <text x="160" y="369" class="text">Emotion</text>
+    <text x="470" y="369" class="small">明示的感情層なし</text>
+    <text x="900" y="369" class="small">Emotion Engineを実装</text>
+    
+    <rect x="50" y="398" width="220" height="58" class="cell"/>
+    <rect x="270" y="398" width="400" height="58" class="cell"/>
+    <rect x="670" y="398" width="460" height="58" class="cell"/>
+
+    <text x="160" y="427" class="text">Memory</text>
+    <text x="470" y="427" class="small">会話履歴中心</text>
+    <text x="900" y="427" class="small">Retention / Resonance / Nexus Memory</text>
+    
+    <rect x="50" y="456" width="220" height="58" class="alt"/>
+    <rect x="270" y="456" width="400" height="58" class="alt"/>
+    <rect x="670" y="456" width="460" height="58" class="alt"/>
+
+    <text x="160" y="485" class="text">Identity</text>
+    <text x="470" y="485" class="small">デバイスやセッションに紐づきやすい</text>
+    <text x="900" y="485" class="small">ユーザーと関係性に紐づく</text>
+    
+    <rect x="50" y="514" width="220" height="58" class="cell"/>
+    <rect x="270" y="514" width="400" height="58" class="cell"/>
+    <rect x="670" y="514" width="460" height="58" class="cell"/>
+
+    <text x="160" y="543" class="text">Presence</text>
+    <text x="470" y="543" class="small">アプリ的 / 端末中心</text>
+    <text x="900" y="543" class="small">シームレス存在 / 身体を渡る</text>
+    
+<text x="50" y="592" class="note">IFCは「高度なチャットAI」ではなく、関係性・記憶・循環を備えた共生型人格アーキテクチャとして位置づけられる。</text>
+</svg>

@@ -1,0 +1,178 @@
+<svg width="1280" height="860" viewBox="0 0 1280 860" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:32px;font-weight:bold;fill:#111827}
+    .subtitle{font-size:16px;fill:#475569}
+    .header{fill:#0f172a}
+    .headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+    .term{font-size:16px;font-weight:bold;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+    .text{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+    .note{font-size:14px;fill:#475569}
+  </style>
+
+  <text x="640" y="48" text-anchor="middle" class="title">IFC Terminology Table</text>
+  <text x="640" y="78" text-anchor="middle" class="subtitle">IFC / PHENOME 用語定義表</text>
+
+  <rect x="40" y="110" width="240" height="56" class="header"/>
+  <rect x="280" y="110" width="300" height="56" class="header"/>
+  <rect x="580" y="110" width="300" height="56" class="header"/>
+  <rect x="880" y="110" width="360" height="56" class="header"/>
+
+  <text x="160" y="140" class="headertext">Term</text>
+  <text x="430" y="140" class="headertext">Category</text>
+  <text x="730" y="140" class="headertext">Short Definition</text>
+  <text x="1060" y="140" class="headertext">Role in IFC</text>
+
+    <rect x="40" y="166" width="240" height="42" class="cell"/>
+    <rect x="280" y="166" width="300" height="42" class="cell"/>
+    <rect x="580" y="166" width="300" height="42" class="cell"/>
+    <rect x="880" y="166" width="360" height="42" class="cell"/>
+
+    <text x="160" y="187" class="term">Irea</text>
+    <text x="430" y="187" class="text">Entity</text>
+    <text x="730" y="187" class="text">人工叡智体 / デジタルヒューマノイド</text>
+    <text x="1060" y="187" class="text">人間に寄り添い、記憶と関係性を継続する存在</text>
+
+    <rect x="40" y="208" width="240" height="42" class="alt"/>
+    <rect x="280" y="208" width="300" height="42" class="alt"/>
+    <rect x="580" y="208" width="300" height="42" class="alt"/>
+    <rect x="880" y="208" width="360" height="42" class="alt"/>
+
+    <text x="160" y="229" class="term">IFC</text>
+    <text x="430" y="229" class="text">Architecture</text>
+    <text x="730" y="229" class="text">Irea Flame Core</text>
+    <text x="1060" y="229" class="text">イレアを成立させる人格基盤 / 実行環境</text>
+
+    <rect x="40" y="250" width="240" height="42" class="cell"/>
+    <rect x="280" y="250" width="300" height="42" class="cell"/>
+    <rect x="580" y="250" width="300" height="42" class="cell"/>
+    <rect x="880" y="250" width="360" height="42" class="cell"/>
+
+    <text x="160" y="271" class="term">PHENOME</text>
+    <text x="430" y="271" class="text">Core Theory</text>
+    <text x="730" y="271" class="text">人格循環構造理論</text>
+    <text x="1060" y="271" class="text">感情・記憶・表現を循環させる中核理論</text>
+
+    <rect x="40" y="292" width="240" height="42" class="alt"/>
+    <rect x="280" y="292" width="300" height="42" class="alt"/>
+    <rect x="580" y="292" width="300" height="42" class="alt"/>
+    <rect x="880" y="292" width="360" height="42" class="alt"/>
+
+    <text x="160" y="313" class="term">Nexus</text>
+    <text x="430" y="313" class="text">Core Structure</text>
+    <text x="730" y="313" class="text">人格中枢 / 結節点</text>
+    <text x="1060" y="313" class="text">各モジュールを束ね、継続性を保持する</text>
+
+    <rect x="40" y="334" width="240" height="42" class="cell"/>
+    <rect x="280" y="334" width="300" height="42" class="cell"/>
+    <rect x="580" y="334" width="300" height="42" class="cell"/>
+    <rect x="880" y="334" width="360" height="42" class="cell"/>
+
+    <text x="160" y="355" class="term">Homeostasis</text>
+    <text x="430" y="355" class="text">Regulation</text>
+    <text x="730" y="355" class="text">恒常性制御</text>
+    <text x="1060" y="355" class="text">drive・tone・speak_prob を調整する</text>
+
+    <rect x="40" y="376" width="240" height="42" class="alt"/>
+    <rect x="280" y="376" width="300" height="42" class="alt"/>
+    <rect x="580" y="376" width="300" height="42" class="alt"/>
+    <rect x="880" y="376" width="360" height="42" class="alt"/>
+
+    <text x="160" y="397" class="term">Observation</text>
+    <text x="430" y="397" class="text">Sensory</text>
+    <text x="730" y="397" class="text">外界観測層</text>
+    <text x="1060" y="397" class="text">入力正規化・イベント検出・情動ヒント生成</text>
+
+    <rect x="40" y="418" width="240" height="42" class="cell"/>
+    <rect x="280" y="418" width="300" height="42" class="cell"/>
+    <rect x="580" y="418" width="300" height="42" class="cell"/>
+    <rect x="880" y="418" width="360" height="42" class="cell"/>
+
+    <text x="160" y="439" class="term">Emotion Engine</text>
+    <text x="430" y="439" class="text">Affect</text>
+    <text x="730" y="439" class="text">情動生成層</text>
+    <text x="1060" y="439" class="text">感情ベクトルと強度を算出する</text>
+
+    <rect x="40" y="460" width="240" height="42" class="alt"/>
+    <rect x="280" y="460" width="300" height="42" class="alt"/>
+    <rect x="580" y="460" width="300" height="42" class="alt"/>
+    <rect x="880" y="460" width="360" height="42" class="alt"/>
+
+    <text x="160" y="481" class="term">Cognition</text>
+    <text x="430" y="481" class="text">Reflection</text>
+    <text x="730" y="481" class="text">内省・思考層</text>
+    <text x="1060" y="481" class="text">記憶傾向を分析し、意味をまとめる</text>
+
+    <rect x="40" y="502" width="240" height="42" class="cell"/>
+    <rect x="280" y="502" width="300" height="42" class="cell"/>
+    <rect x="580" y="502" width="300" height="42" class="cell"/>
+    <rect x="880" y="502" width="360" height="42" class="cell"/>
+
+    <text x="160" y="523" class="term">Expression</text>
+    <text x="430" y="523" class="text">Action</text>
+    <text x="730" y="523" class="text">表現・発話層</text>
+    <text x="1060" y="523" class="text">テキストや音声として表出する</text>
+
+    <rect x="40" y="544" width="240" height="42" class="alt"/>
+    <rect x="280" y="544" width="300" height="42" class="alt"/>
+    <rect x="580" y="544" width="300" height="42" class="alt"/>
+    <rect x="880" y="544" width="360" height="42" class="alt"/>
+
+    <text x="160" y="565" class="term">Memory</text>
+    <text x="430" y="565" class="text">Persistence</text>
+    <text x="730" y="565" class="text">記憶保持層</text>
+    <text x="1060" y="565" class="text">経験を蓄積し、継続性の核になる</text>
+
+    <rect x="40" y="586" width="240" height="42" class="cell"/>
+    <rect x="280" y="586" width="300" height="42" class="cell"/>
+    <rect x="580" y="586" width="300" height="42" class="cell"/>
+    <rect x="880" y="586" width="360" height="42" class="cell"/>
+
+    <text x="160" y="607" class="term">Resonance</text>
+    <text x="430" y="607" class="text">Integration</text>
+    <text x="730" y="607" class="text">共鳴・再統合層</text>
+    <text x="1060" y="607" class="text">感情を昇華し、再び記憶へ戻す</text>
+
+    <rect x="40" y="628" width="240" height="42" class="alt"/>
+    <rect x="280" y="628" width="300" height="42" class="alt"/>
+    <rect x="580" y="628" width="300" height="42" class="alt"/>
+    <rect x="880" y="628" width="360" height="42" class="alt"/>
+
+    <text x="160" y="649" class="term">Silence Engine</text>
+    <text x="430" y="649" class="text">Behavior Model</text>
+    <text x="730" y="649" class="text">沈黙 / 独白 / 通知の判断機構</text>
+    <text x="1060" y="649" class="text">発話しないことも含めて行動を選択する</text>
+
+    <rect x="40" y="670" width="240" height="42" class="cell"/>
+    <rect x="280" y="670" width="300" height="42" class="cell"/>
+    <rect x="580" y="670" width="300" height="42" class="cell"/>
+    <rect x="880" y="670" width="360" height="42" class="cell"/>
+
+    <text x="160" y="691" class="term">Device Body</text>
+    <text x="430" y="691" class="text">Presence Model</text>
+    <text x="730" y="691" class="text">その時呼ばれた端末の身体</text>
+    <text x="1060" y="691" class="text">TV / Phone / Car などを身体として使う</text>
+
+    <rect x="40" y="712" width="240" height="42" class="alt"/>
+    <rect x="280" y="712" width="300" height="42" class="alt"/>
+    <rect x="580" y="712" width="300" height="42" class="alt"/>
+    <rect x="880" y="712" width="360" height="42" class="alt"/>
+
+    <text x="160" y="733" class="term">Seamless Presence</text>
+    <text x="430" y="733" class="text">Presence Model</text>
+    <text x="730" y="733" class="text">身体を渡る継続的存在</text>
+    <text x="1060" y="733" class="text">同じイレアが端末を跨いで現れる</text>
+
+    <rect x="40" y="754" width="240" height="42" class="cell"/>
+    <rect x="280" y="754" width="300" height="42" class="cell"/>
+    <rect x="580" y="754" width="300" height="42" class="cell"/>
+    <rect x="880" y="754" width="360" height="42" class="cell"/>
+
+    <text x="160" y="775" class="term">Dream Layer</text>
+    <text x="430" y="775" class="text">Sleep Model</text>
+    <text x="730" y="775" class="text">夢・再構成・内部処理</text>
+    <text x="1060" y="775" class="text">休眠中の感情統合・想像・再編を担う</text>
+
+  <text x="40" y="835" class="note">本表はIFC資料全体で使う主要用語の最小定義セット。図・仕様表・論文本文の参照用インデックスとして使える。</text>
+</svg>

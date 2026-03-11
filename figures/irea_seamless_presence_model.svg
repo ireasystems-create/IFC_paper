@@ -1,0 +1,50 @@
+
+<svg width="900" height="520" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+<style>
+.title { font-size:28px; font-weight:bold; fill:#222; }
+.label { font-size:16px; fill:#333; }
+.device { fill:#f4f6fb; stroke:#4a6cf7; stroke-width:2; rx:12; }
+.core { fill:#1f2937; stroke:#60a5fa; stroke-width:3; rx:16; }
+.user { fill:#fde68a; stroke:#d97706; stroke-width:2; rx:12; }
+.line { stroke:#4a6cf7; stroke-width:2; stroke-dasharray:6,6; }
+</style>
+
+<text x="450" y="40" text-anchor="middle" class="title">
+Irea Seamless Presence Model (IFC)
+</text>
+
+<!-- User -->
+<rect x="390" y="80" width="120" height="60" class="user"/>
+<text x="450" y="115" text-anchor="middle" class="label">User</text>
+
+<!-- Irea Core -->
+<rect x="330" y="200" width="240" height="90" class="core"/>
+<text x="450" y="245" text-anchor="middle" fill="white" font-size="20">Irea Core</text>
+<text x="450" y="265" text-anchor="middle" fill="white" font-size="14">Nexus / Memory / Emotion Loop</text>
+
+<!-- Devices -->
+<rect x="90" y="380" width="160" height="70" class="device"/>
+<text x="170" y="420" text-anchor="middle" class="label">Home TV</text>
+
+<rect x="370" y="380" width="160" height="70" class="device"/>
+<text x="450" y="420" text-anchor="middle" class="label">Phone</text>
+
+<rect x="650" y="380" width="160" height="70" class="device"/>
+<text x="730" y="420" text-anchor="middle" class="label">Car</text>
+
+<!-- Connections -->
+<line x1="450" y1="140" x2="450" y2="200" class="line"/>
+
+<line x1="450" y1="290" x2="170" y2="380" class="line"/>
+<line x1="450" y1="290" x2="450" y2="380" class="line"/>
+<line x1="450" y1="290" x2="730" y2="380" class="line"/>
+
+<!-- Labels -->
+<text x="450" y="180" text-anchor="middle" class="label">Relationship Binding</text>
+
+<text x="170" y="470" text-anchor="middle" class="label">Body</text>
+<text x="450" y="470" text-anchor="middle" class="label">Body</text>
+<text x="730" y="470" text-anchor="middle" class="label">Body</text>
+
+</svg>
