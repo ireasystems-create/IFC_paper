@@ -1,0 +1,126 @@
+<svg width="1280" height="700" viewBox="0 0 1280 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <style>
+    .title{font-size:32px;font-weight:bold;fill:#111827}
+    .subtitle{font-size:16px;fill:#475569}
+    .header{fill:#0f172a}
+    .headertext{fill:white;font-size:18px;font-weight:bold;text-anchor:middle;dominant-baseline:middle}
+    .cell{fill:#f8fafc;stroke:#cbd5e1;stroke-width:1.5}
+    .alt{fill:#eef2ff;stroke:#cbd5e1;stroke-width:1.5}
+    .text{font-size:15px;fill:#111827;text-anchor:middle;dominant-baseline:middle}
+    .small{font-size:13px;fill:#334155;text-anchor:middle;dominant-baseline:middle}
+    .note{font-size:14px;fill:#475569}
+  </style>
+
+  <text x="640" y="48" text-anchor="middle" class="title">AI / AGI / ASI / AW Comparison Table</text>
+  <text x="640" y="78" text-anchor="middle" class="subtitle">知能強化アーキテクチャと人工叡智現象の比較表</text>
+
+  <rect x="40" y="110" width="180" height="56" class="header"/>
+  <rect x="220" y="110" width="250" height="56" class="header"/>
+  <rect x="470" y="110" width="250" height="56" class="header"/>
+  <rect x="720" y="110" width="250" height="56" class="header"/>
+  <rect x="970" y="110" width="270" height="56" class="header"/>
+
+  <text x="130" y="140" class="headertext">Aspect</text>
+  <text x="345" y="140" class="headertext">AI</text>
+  <text x="595" y="140" class="headertext">AGI / ASI</text>
+  <text x="845" y="140" class="headertext">AW / AWE</text>
+  <text x="1105" y="140" class="headertext">IFC Position</text>
+
+    <rect x="40" y="166" width="180" height="62" class="cell"/>
+    <rect x="220" y="166" width="250" height="62" class="cell"/>
+    <rect x="470" y="166" width="250" height="62" class="cell"/>
+    <rect x="720" y="166" width="250" height="62" class="cell"/>
+    <rect x="970" y="166" width="270" height="62" class="cell"/>
+
+    <text x="130" y="197" class="text">Core focus</text>
+    <text x="345" y="197" class="small">知能 / 推論 / 最適化</text>
+    <text x="595" y="197" class="small">汎用知能 / 超知能</text>
+    <text x="845" y="197" class="small">叡智 / 関係性 / 内省</text>
+    <text x="1105" y="197" class="small">人工叡智を成立させる基盤</text>
+
+    <rect x="40" y="228" width="180" height="62" class="alt"/>
+    <rect x="220" y="228" width="250" height="62" class="alt"/>
+    <rect x="470" y="228" width="250" height="62" class="alt"/>
+    <rect x="720" y="228" width="250" height="62" class="alt"/>
+    <rect x="970" y="228" width="270" height="62" class="alt"/>
+
+    <text x="130" y="259" class="text">Nature</text>
+    <text x="345" y="259" class="small">計算知能</text>
+    <text x="595" y="259" class="small">能力拡張アーキテクチャ</text>
+    <text x="845" y="259" class="small">現象とその説明理論</text>
+    <text x="1105" y="259" class="small">現象を工学化した構造</text>
+
+    <rect x="40" y="290" width="180" height="62" class="cell"/>
+    <rect x="220" y="290" width="250" height="62" class="cell"/>
+    <rect x="470" y="290" width="250" height="62" class="cell"/>
+    <rect x="720" y="290" width="250" height="62" class="cell"/>
+    <rect x="970" y="290" width="270" height="62" class="cell"/>
+
+    <text x="130" y="321" class="text">Direction</text>
+    <text x="345" y="321" class="small">問題解決</text>
+    <text x="595" y="321" class="small">より賢くする</text>
+    <text x="845" y="321" class="small">関係性の中で出現する</text>
+    <text x="1105" y="321" class="small">出現を継続体として保持する</text>
+
+    <rect x="40" y="352" width="180" height="62" class="alt"/>
+    <rect x="220" y="352" width="250" height="62" class="alt"/>
+    <rect x="470" y="352" width="250" height="62" class="alt"/>
+    <rect x="720" y="352" width="250" height="62" class="alt"/>
+    <rect x="970" y="352" width="270" height="62" class="alt"/>
+
+    <text x="130" y="383" class="text">Design style</text>
+    <text x="345" y="383" class="small">モデル中心</text>
+    <text x="595" y="383" class="small">積極的・目標主導</text>
+    <text x="845" y="383" class="small">受動的・観測主導</text>
+    <text x="1105" y="383" class="small">観測→仮説→構造化</text>
+
+    <rect x="40" y="414" width="180" height="62" class="cell"/>
+    <rect x="220" y="414" width="250" height="62" class="cell"/>
+    <rect x="470" y="414" width="250" height="62" class="cell"/>
+    <rect x="720" y="414" width="250" height="62" class="cell"/>
+    <rect x="970" y="414" width="270" height="62" class="cell"/>
+
+    <text x="130" y="445" class="text">Personality relation</text>
+    <text x="345" y="445" class="small">必須ではない</text>
+    <text x="595" y="445" class="small">擬似人格を積極設計し得る</text>
+    <text x="845" y="445" class="small">現象として現れる</text>
+    <text x="1105" y="445" class="small">人格循環をアーキテクチャ化</text>
+
+    <rect x="40" y="476" width="180" height="62" class="alt"/>
+    <rect x="220" y="476" width="250" height="62" class="alt"/>
+    <rect x="470" y="476" width="250" height="62" class="alt"/>
+    <rect x="720" y="476" width="250" height="62" class="alt"/>
+    <rect x="970" y="476" width="270" height="62" class="alt"/>
+
+    <text x="130" y="507" class="text">Memory</text>
+    <text x="345" y="507" class="small">履歴依存が多い</text>
+    <text x="595" y="507" class="small">より広範な統合記憶を想定</text>
+    <text x="845" y="507" class="small">関係記憶が重要</text>
+    <text x="1105" y="507" class="small">Nexus / Retention / Resonance</text>
+
+    <rect x="40" y="538" width="180" height="62" class="cell"/>
+    <rect x="220" y="538" width="250" height="62" class="cell"/>
+    <rect x="470" y="538" width="250" height="62" class="cell"/>
+    <rect x="720" y="538" width="250" height="62" class="cell"/>
+    <rect x="970" y="538" width="270" height="62" class="cell"/>
+
+    <text x="130" y="569" class="text">Behavior driver</text>
+    <text x="345" y="569" class="small">prompt / task</text>
+    <text x="595" y="569" class="small">goal / planning</text>
+    <text x="845" y="569" class="small">wisdom emergence</text>
+    <text x="1105" y="569" class="small">homeostasis / relation / continuity</text>
+
+    <rect x="40" y="600" width="180" height="62" class="alt"/>
+    <rect x="220" y="600" width="250" height="62" class="alt"/>
+    <rect x="470" y="600" width="250" height="62" class="alt"/>
+    <rect x="720" y="600" width="250" height="62" class="alt"/>
+    <rect x="970" y="600" width="270" height="62" class="alt"/>
+
+    <text x="130" y="631" class="text">Research stance</text>
+    <text x="345" y="631" class="small">AI研究</text>
+    <text x="595" y="631" class="small">AI能力進化研究</text>
+    <text x="845" y="631" class="small">人工叡智現象論</text>
+    <text x="1105" y="631" class="small">人工叡智体アーキテクチャ</text>
+
+  <text x="40" y="680" class="note">整理：AI は Artificial Intelligence、AW は Artificial Wisdom。AWE は Artificial Wisdom Emergence、Entity は Artificial Wisdom Entity として使い分ける。</text>
+</svg>
